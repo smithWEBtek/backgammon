@@ -1,8 +1,5 @@
-.triangle-container {
-  /* width: 500px; */
-  margin: auto;
-  text-align: center;
-  border: 1px solid white;
+.section-right {
+  border: 4px dashed yellowgreen;
 }
 
 .triangle-black {
