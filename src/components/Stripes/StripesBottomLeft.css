@@ -1,0 +1,45 @@
+.section-left {
+  width: auto;
+}
+
+.triangle-black {
+  fill: rgb(155, 153, 153);
+  stroke: rgb(68, 67, 54);
+  stroke-width: 2;
+  transition: all 0.8s ease-in-out;
+
+  @keyframes mymove {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  transform-origin: 250px 250px;
+}
+
+.triangle-white {
+  fill: rgb(246, 248, 234);
+  stroke: rgb(68, 67, 54);
+  stroke-width: 2;
+  transition: all 0.8s ease-in-out;
+
+  @keyframes mymove {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  transform-origin: 250px 250px;
+}

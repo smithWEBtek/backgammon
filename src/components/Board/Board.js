@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
 import './Board.css';
-import Stripe from '../Stripe/Stripe';
+import StripesBottomLeft from '../Stripes/StripesBottomLeft';
+import StripesBottomRight from '../Stripes/StripesBottomRight';
+import Bar from '../Bar/Bar';
 
 class Board extends Component {
   render () {
-    const stripes = (
+      return (
         <>
-          <Stripe />  
-          {/* <BlackStripe />   */}
-        </>
-      )
-
-    return (
-      <div className="board">
-        {/* <h2>The Board</h2> */}
-        {stripes}
+          <h2>The Board</h2>
+        <div className="board">
+          <StripesBottomLeft />  
+          <Bar />
+          <StripesBottomRight />
       </div>
-    )
-  }
+      </>
+      )
+    }
 }
 
 export default Board;
