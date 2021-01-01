@@ -1,10 +1,10 @@
 .board {
   border: 3px solid gray;
   border-radius: 0.5rem;
-  background-color: lightyellow;
+  background-color: rgb(224, 254, 255);
   padding: 2rem;
   display: wrap;
-  width: 60%;
+  width: auto;
 }
 
 h2 {
