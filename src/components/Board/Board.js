@@ -13,7 +13,7 @@ class Board extends Component {
 
     return (
       <div className="board">
-        <h2>The Board</h2>
+        {/* <h2>The Board</h2> */}
         {stripes}
       </div>
     )

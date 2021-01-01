@@ -1,5 +1,5 @@
 .board {
-  border: 3px solid gray;
+  border: 2px dashed red;
   border-radius: 0.5rem;
   background-color: rgb(224, 254, 255);
   padding: 2rem;
