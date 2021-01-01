@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './Board.css';
-import WhiteStripe from '../WhiteStripe/WhiteStripe';
-import BlackStripe from '../BlackStripe/BlackStripe';
+import Stripe from '../Stripe/Stripe';
 
 class Board extends Component {
   render () {
     const stripes = (
         <>
-          <WhiteStripe />  
-          <BlackStripe />  
+          <Stripe />  
+          {/* <BlackStripe />   */}
         </>
       )
 

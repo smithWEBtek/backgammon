@@ -1,0 +1,27 @@
+.triangle-container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.triangle {
+  fill: rgb(175, 175, 175);
+  stroke: rgb(68, 67, 54);
+  stroke-width: 2;
+  transition: all 0.8s ease-in-out;
+
+  @keyframes mymove {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  transform-origin: 250px 250px;
+}
