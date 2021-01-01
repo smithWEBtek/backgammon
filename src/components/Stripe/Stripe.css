@@ -1,12 +1,12 @@
 .triangle-container {
-  width: 500px;
+  /* width: 500px; */
   margin: auto;
   text-align: center;
   border: 1px solid white;
 }
 
 .triangle {
-  fill: rgb(175, 175, 175);
+  fill: rgb(208, 205, 205);
   stroke: rgb(68, 67, 54);
   stroke-width: 2;
   transition: all 0.8s ease-in-out;
