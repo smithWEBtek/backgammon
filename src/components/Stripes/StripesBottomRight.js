@@ -4,7 +4,7 @@ import "./StripesBottomRight.css";
 class StripesBottomRight extends Component {
   render() {
     const triangle = (
-      <div className="sectio-right">
+      <div className="section-bottom-right">
       {/* <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">  */}
       <svg height="500" width="700">
         <polygon id="7" points="75,190 50,400 100,400" className="triangle-black" />

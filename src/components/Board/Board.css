@@ -1,4 +1,8 @@
 .board {
+  display: inline-grid;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+  border: 2px solid green;
   border-radius: 0.5rem;
   background-color: rgb(224, 254, 255);
   display: flex;

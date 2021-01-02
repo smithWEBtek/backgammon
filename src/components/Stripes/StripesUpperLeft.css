@@ -1,5 +1,10 @@
-.section-bottom-left {
+.section-upper-left {
   width: auto;
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+  margin-left: 400px;
 }
 
 .triangle-black {
